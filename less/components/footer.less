@@ -1,0 +1,81 @@
+footer {
+  background-color: #b33068;
+  padding: 40px 0;
+}
+
+.wrp-footer {
+  max-width: 890px;
+  margin: auto;
+
+  .wrp-follow-us {
+    padding-left: 40px;
+    .follow-us {
+      color: #fff;
+      font-size: 22px;
+    }
+
+
+    img {
+      vertical-align: baseline;
+    }
+  }
+
+  .wrp-social-icons {
+    padding-left: 50px;
+
+    i {
+      color: #fff;
+      font-size: 36px;
+    }
+  }
+
+  .wrp-copyright {
+    color: #fff;
+    font-size: 16px;
+    padding-left: 50px;
+    margin-top: 130px;
+  }
+}
+
+.wrp-contacts-form {
+  max-width: 590px;
+  margin: auto;
+
+  input {
+    &[type="text"], &[type="email"] {
+      width: 100%;
+    }
+
+    &.email {
+      margin-top: 20px;
+    }
+
+    &[type="submit"] {
+      width: 155px;
+      text-align: center;
+      color: #fff;
+      background: #049b7d;
+      line-height: 44px;
+      border: none;
+      margin-top: 20px;
+    }
+
+  }
+  textarea {
+    margin-top: 20px;
+    height: 110px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: @screen-sm) {
+  .wrp-contacts-form {
+    input {
+      &.email {
+        margin-top: 0px;
+      }
+    }
+  }
+
+}
